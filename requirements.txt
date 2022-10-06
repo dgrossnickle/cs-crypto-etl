@@ -1,0 +1,9 @@
+pandas==1.3.5
+numpy==1.21.6
+flask==2.1.3
+# flask-sqlalchemy==2.5.1
+# psycopg2-binary==2.9.3
+cbpro==1.1.4
+python-binance==1.0.16
+# linux/docker only - not needed for local testing
+# uwsgi==2.0.17.1

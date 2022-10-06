@@ -1,0 +1,30 @@
+{
+  "LOCAL": {
+    "DEFAULTS": {
+      "FIRST_NAME": "Admin",
+      "LAST_NAME": "User",
+      "USER_EMAIL": "dgrossnickle@gmail.com"
+    },
+    "FLASK": {
+      "DEBUG": "True",
+      "HOST": "127.0.0.1",
+      "ENV": "local",
+      "ASSETS_DEBUG": "",
+      "EXPLAIN_TEMPLATE_LOADING": ""
+    }
+  },
+  "PROD": {
+    "DEFAULTS": {
+      "FIRST_NAME": "Admin",
+      "LAST_NAME": "User",
+      "USER_EMAIL": "dgrossnickle@gmail.com"
+    },
+    "FLASK": {
+      "DEBUG": "",
+      "HOST": "0.0.0.0",
+      "ENV": "prod",
+      "ASSETS_DEBUG": "",
+      "EXPLAIN_TEMPLATE_LOADING": ""
+    }
+  }
+}
